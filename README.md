@@ -11,4 +11,12 @@
 2. 实例化自己的类，并将实例绑定在控制器上 <app.calc = new Calc(app.options.calc)>
 3. 通过控制器来初始化 组件实例<app.calc.init()>
 
+## Changelog
+Detailed changes for each release are documented in the [release notes](https://github.com/Liar0320/IOC/releases).
+
+## 测试
+```javascript
+npm run start 
+```
+
 ## 结束

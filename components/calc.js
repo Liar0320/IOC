@@ -27,7 +27,7 @@ class Calc{
 module.exports = {
     /**
      * 
-     * @param { import("../Ioc") } app 
+     * @param { import("../src/Ioc") } app 
      */
     install(app){
         app.calc = new Calc(app.options.calc);
